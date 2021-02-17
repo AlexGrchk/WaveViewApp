@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FEB19D25DD75E40098D5F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB19C25DD75E40098D5F2 /* AppDelegate.swift */; };
+		11FEB19F25DD75E40098D5F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB19E25DD75E40098D5F2 /* SceneDelegate.swift */; };
+		11FEB1A125DD75E40098D5F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB1A025DD75E40098D5F2 /* ViewController.swift */; };
+		11FEB1A425DD75E40098D5F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FEB1A225DD75E40098D5F2 /* Main.storyboard */; };
+		11FEB1A625DD75EC0098D5F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FEB1A525DD75EC0098D5F2 /* Assets.xcassets */; };
+		11FEB1A925DD75EC0098D5F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FEB1A725DD75EC0098D5F2 /* LaunchScreen.storyboard */; };
+		11FEB1B425DD75ED0098D5F2 /* WaveViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB1B325DD75ED0098D5F2 /* WaveViewAppTests.swift */; };
+		11FEB1BF25DD75ED0098D5F2 /* WaveViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB1BE25DD75ED0098D5F2 /* WaveViewAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11FEB1B025DD75ED0098D5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FEB19125DD75E30098D5F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FEB19825DD75E40098D5F2;
+			remoteInfo = WaveViewApp;
+		};
+		11FEB1BB25DD75ED0098D5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FEB19125DD75E30098D5F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FEB19825DD75E40098D5F2;
+			remoteInfo = WaveViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FEB19925DD75E40098D5F2 /* WaveViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FEB19C25DD75E40098D5F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11FEB19E25DD75E40098D5F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11FEB1A025DD75E40098D5F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11FEB1A325DD75E40098D5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11FEB1A525DD75EC0098D5F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11FEB1A825DD75EC0098D5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11FEB1AA25DD75EC0098D5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FEB1AF25DD75ED0098D5F2 /* WaveViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FEB1B325DD75ED0098D5F2 /* WaveViewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveViewAppTests.swift; sourceTree = "<group>"; };
+		11FEB1B525DD75ED0098D5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FEB1BA25DD75ED0098D5F2 /* WaveViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FEB1BE25DD75ED0098D5F2 /* WaveViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveViewAppUITests.swift; sourceTree = "<group>"; };
+		11FEB1C025DD75ED0098D5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FEB19625DD75E40098D5F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FEB1AC25DD75ED0098D5F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FEB1B725DD75ED0098D5F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FEB19025DD75E30098D5F2 = {
+			isa = PBXGroup;
+			children = (
+				11FEB19B25DD75E40098D5F2 /* WaveViewApp */,
+				11FEB1B225DD75ED0098D5F2 /* WaveViewAppTests */,
+				11FEB1BD25DD75ED0098D5F2 /* WaveViewAppUITests */,
+				11FEB19A25DD75E40098D5F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FEB19A25DD75E40098D5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FEB19925DD75E40098D5F2 /* WaveViewApp.app */,
+				11FEB1AF25DD75ED0098D5F2 /* WaveViewAppTests.xctest */,
+				11FEB1BA25DD75ED0098D5F2 /* WaveViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FEB19B25DD75E40098D5F2 /* WaveViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				11FEB19C25DD75E40098D5F2 /* AppDelegate.swift */,
+				11FEB19E25DD75E40098D5F2 /* SceneDelegate.swift */,
+				11FEB1A025DD75E40098D5F2 /* ViewController.swift */,
+				11FEB1A225DD75E40098D5F2 /* Main.storyboard */,
+				11FEB1A525DD75EC0098D5F2 /* Assets.xcassets */,
+				11FEB1A725DD75EC0098D5F2 /* LaunchScreen.storyboard */,
+				11FEB1AA25DD75EC0098D5F2 /* Info.plist */,
+			);
+			path = WaveViewApp;
+			sourceTree = "<group>";
+		};
+		11FEB1B225DD75ED0098D5F2 /* WaveViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				11FEB1B325DD75ED0098D5F2 /* WaveViewAppTests.swift */,
+				11FEB1B525DD75ED0098D5F2 /* Info.plist */,
+			);
+			path = WaveViewAppTests;
+			sourceTree = "<group>";
+		};
+		11FEB1BD25DD75ED0098D5F2 /* WaveViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11FEB1BE25DD75ED0098D5F2 /* WaveViewAppUITests.swift */,
+				11FEB1C025DD75ED0098D5F2 /* Info.plist */,
+			);
+			path = WaveViewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FEB19825DD75E40098D5F2 /* WaveViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FEB1C325DD75EE0098D5F2 /* Build configuration list for PBXNativeTarget "WaveViewApp" */;
+			buildPhases = (
+				11FEB19525DD75E40098D5F2 /* Sources */,
+				11FEB19625DD75E40098D5F2 /* Frameworks */,
+				11FEB19725DD75E40098D5F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveViewApp;
+			productName = WaveViewApp;
+			productReference = 11FEB19925DD75E40098D5F2 /* WaveViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11FEB1AE25DD75ED0098D5F2 /* WaveViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FEB1C625DD75EE0098D5F2 /* Build configuration list for PBXNativeTarget "WaveViewAppTests" */;
+			buildPhases = (
+				11FEB1AB25DD75ED0098D5F2 /* Sources */,
+				11FEB1AC25DD75ED0098D5F2 /* Frameworks */,
+				11FEB1AD25DD75ED0098D5F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FEB1B125DD75ED0098D5F2 /* PBXTargetDependency */,
+			);
+			name = WaveViewAppTests;
+			productName = WaveViewAppTests;
+			productReference = 11FEB1AF25DD75ED0098D5F2 /* WaveViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11FEB1B925DD75ED0098D5F2 /* WaveViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FEB1C925DD75EE0098D5F2 /* Build configuration list for PBXNativeTarget "WaveViewAppUITests" */;
+			buildPhases = (
+				11FEB1B625DD75ED0098D5F2 /* Sources */,
+				11FEB1B725DD75ED0098D5F2 /* Frameworks */,
+				11FEB1B825DD75ED0098D5F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FEB1BC25DD75ED0098D5F2 /* PBXTargetDependency */,
+			);
+			name = WaveViewAppUITests;
+			productName = WaveViewAppUITests;
+			productReference = 11FEB1BA25DD75ED0098D5F2 /* WaveViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FEB19125DD75E30098D5F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					11FEB19825DD75E40098D5F2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					11FEB1AE25DD75ED0098D5F2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 11FEB19825DD75E40098D5F2;
+					};
+					11FEB1B925DD75ED0098D5F2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 11FEB19825DD75E40098D5F2;
+					};
+				};
+			};
+			buildConfigurationList = 11FEB19425DD75E30098D5F2 /* Build configuration list for PBXProject "WaveViewApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11FEB19025DD75E30098D5F2;
+			productRefGroup = 11FEB19A25DD75E40098D5F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FEB19825DD75E40098D5F2 /* WaveViewApp */,
+				11FEB1AE25DD75ED0098D5F2 /* WaveViewAppTests */,
+				11FEB1B925DD75ED0098D5F2 /* WaveViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FEB19725DD75E40098D5F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FEB1A925DD75EC0098D5F2 /* LaunchScreen.storyboard in Resources */,
+				11FEB1A625DD75EC0098D5F2 /* Assets.xcassets in Resources */,
+				11FEB1A425DD75E40098D5F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FEB1AD25DD75ED0098D5F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FEB1B825DD75ED0098D5F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FEB19525DD75E40098D5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FEB1A125DD75E40098D5F2 /* ViewController.swift in Sources */,
+				11FEB19D25DD75E40098D5F2 /* AppDelegate.swift in Sources */,
+				11FEB19F25DD75E40098D5F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FEB1AB25DD75ED0098D5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FEB1B425DD75ED0098D5F2 /* WaveViewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FEB1B625DD75ED0098D5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FEB1BF25DD75ED0098D5F2 /* WaveViewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FEB1B125DD75ED0098D5F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FEB19825DD75E40098D5F2 /* WaveViewApp */;
+			targetProxy = 11FEB1B025DD75ED0098D5F2 /* PBXContainerItemProxy */;
+		};
+		11FEB1BC25DD75ED0098D5F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FEB19825DD75E40098D5F2 /* WaveViewApp */;
+			targetProxy = 11FEB1BB25DD75ED0098D5F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11FEB1A225DD75E40098D5F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FEB1A325DD75E40098D5F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11FEB1A725DD75EC0098D5F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FEB1A825DD75EC0098D5F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FEB1C125DD75EE0098D5F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11FEB1C225DD75EE0098D5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FEB1C425DD75EE0098D5F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				INFOPLIST_FILE = WaveViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edges.WaveViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11FEB1C525DD75EE0098D5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				INFOPLIST_FILE = WaveViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edges.WaveViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11FEB1C725DD75EE0098D5F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				INFOPLIST_FILE = WaveViewAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edges.WaveViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveViewApp.app/WaveViewApp";
+			};
+			name = Debug;
+		};
+		11FEB1C825DD75EE0098D5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				INFOPLIST_FILE = WaveViewAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edges.WaveViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveViewApp.app/WaveViewApp";
+			};
+			name = Release;
+		};
+		11FEB1CA25DD75EE0098D5F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				INFOPLIST_FILE = WaveViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edges.WaveViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveViewApp;
+			};
+			name = Debug;
+		};
+		11FEB1CB25DD75EE0098D5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				INFOPLIST_FILE = WaveViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edges.WaveViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveViewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FEB19425DD75E30098D5F2 /* Build configuration list for PBXProject "WaveViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FEB1C125DD75EE0098D5F2 /* Debug */,
+				11FEB1C225DD75EE0098D5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FEB1C325DD75EE0098D5F2 /* Build configuration list for PBXNativeTarget "WaveViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FEB1C425DD75EE0098D5F2 /* Debug */,
+				11FEB1C525DD75EE0098D5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FEB1C625DD75EE0098D5F2 /* Build configuration list for PBXNativeTarget "WaveViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FEB1C725DD75EE0098D5F2 /* Debug */,
+				11FEB1C825DD75EE0098D5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FEB1C925DD75EE0098D5F2 /* Build configuration list for PBXNativeTarget "WaveViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FEB1CA25DD75EE0098D5F2 /* Debug */,
+				11FEB1CB25DD75EE0098D5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FEB19125DD75E30098D5F2 /* Project object */;
+}
