@@ -15,6 +15,8 @@
 		11FEB1A925DD75EC0098D5F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FEB1A725DD75EC0098D5F2 /* LaunchScreen.storyboard */; };
 		11FEB1B425DD75ED0098D5F2 /* WaveViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB1B325DD75ED0098D5F2 /* WaveViewAppTests.swift */; };
 		11FEB1BF25DD75ED0098D5F2 /* WaveViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB1BE25DD75ED0098D5F2 /* WaveViewAppUITests.swift */; };
+		11FEB1D025DD763E0098D5F2 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB1CF25DD763E0098D5F2 /* WaveView.swift */; };
+		11FEB1DC25DD87F50098D5F2 /* NewWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEB1DB25DD87F50098D5F2 /* NewWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		11FEB1BA25DD75ED0098D5F2 /* WaveViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FEB1BE25DD75ED0098D5F2 /* WaveViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveViewAppUITests.swift; sourceTree = "<group>"; };
 		11FEB1C025DD75ED0098D5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FEB1CF25DD763E0098D5F2 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		11FEB1DB25DD87F50098D5F2 /* NewWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				11FEB1A525DD75EC0098D5F2 /* Assets.xcassets */,
 				11FEB1A725DD75EC0098D5F2 /* LaunchScreen.storyboard */,
 				11FEB1AA25DD75EC0098D5F2 /* Info.plist */,
+				11FEB1CF25DD763E0098D5F2 /* WaveView.swift */,
+				11FEB1DB25DD87F50098D5F2 /* NewWaveView.swift */,
 			);
 			path = WaveViewApp;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				11FEB1A125DD75E40098D5F2 /* ViewController.swift in Sources */,
 				11FEB19D25DD75E40098D5F2 /* AppDelegate.swift in Sources */,
 				11FEB19F25DD75E40098D5F2 /* SceneDelegate.swift in Sources */,
+				11FEB1D025DD763E0098D5F2 /* WaveView.swift in Sources */,
+				11FEB1DC25DD87F50098D5F2 /* NewWaveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WaveViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 554Q7AFJX5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WaveViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
